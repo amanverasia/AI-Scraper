@@ -1,6 +1,6 @@
-# Web Scraping and Content Analysis Tool
+# AI-Scraper
 
-This project is a Python-based web scraping and content analysis tool. It uses Selenium for web scraping and OpenAI's language models for content processing and analysis.
+This project is a Python-based web scraping and content analysis tool. It uses Selenium for web scraping and OpenRouter's language models for content processing and analysis.
 
 ## Features
 
@@ -42,8 +42,8 @@ sudo apt-get install chromium-chromedriver
 
 1. Clone this repository:
    ```
-   git clone https://github.com/amanverasia/web-scraping-content-analysis.git
-   cd web-scraping-content-analysis
+   git clone https://github.com/amanverasia/AI-Scraper.git
+   cd AI-Scraper
    ```
 
 2. Create a virtual environment:
@@ -75,6 +75,11 @@ sudo apt-get install chromium-chromedriver
 Run the main script:
 ```
 python main.py
+```
+
+For MacOS and Linux
+```
+python3 main.py
 ```
 
 The script will prompt you to enter a URL to scrape and then ask what you'd like to know about the scraped content.
