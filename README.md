@@ -7,7 +7,7 @@ This project is a Python-based web scraping and content analysis tool. It uses S
 - Web scraping using Selenium and BeautifulSoup
 - Main content extraction from web pages
 - Length-aware text extraction
-- Integration with OpenAI's language models for content analysis
+- Integration with OpenRouter's language models for content analysis
 - Flexible querying of scraped content
 
 ## Installation
@@ -67,7 +67,7 @@ sudo apt-get install chromium-chromedriver
 
 ## Configuration
 
-1. Update the `DEFAULT_API_KEY` in `main.py` with your OpenRouter API key.
+1. Update the `DEFAULT_API_KEY` in `main.py` with your OpenRouter API key. (Get an OpenRouter API key from https://openrouter.ai/settings/keys)
 2. If necessary, update the `driver_path` in `main.py` with the correct path to your ChromeDriver executable.
 
 ## Usage
